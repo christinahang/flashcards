@@ -22,6 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="hang.christina.flashcards.ManageDeck"
+            android:label="@string/title_activity_manage_deck"
+            android:parentActivityName="hang.christina.flashcards.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hang.christina.flashcards.MainActivity" />
+        </activity>
+        <activity
+            android:name="hang.christina.flashcards.DeckList"
+            android:label="@string/title_activity_deck_list"
+            android:parentActivityName="hang.christina.flashcards.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hang.christina.flashcards.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

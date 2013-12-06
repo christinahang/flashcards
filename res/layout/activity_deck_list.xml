@@ -6,20 +6,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".DeckList" >
 
-    <Button 
-        android:id="@+id/create_deck"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/create_deck"
-        android:onClick="createDeck" />
-    
-    <Button 
-        android:id="@+id/view_decks"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/view_decks"
-        android:onClick="viewDecks" />
+        android:text="@string/hello_world" />
 
 </RelativeLayout>

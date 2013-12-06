@@ -3,6 +3,13 @@
 
     <string name="app_name">FlashCards</string>
     <string name="action_settings">Settings</string>
+    <string name="create_deck">Create Deck</string>
+    <string name="view_decks">View Decks</string>
+    <string name="title_activity_manage_deck">ManageDeck</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_deck_list">DeckList</string>
     <string name="hello_world">Hello world!</string>
 
 </resources>
