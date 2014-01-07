@@ -11,5 +11,6 @@
     <string name="title_section3">Section 3</string>
     <string name="title_activity_deck_list">DeckList</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_test_database">TestDatabaseActivity</string>
 
 </resources>

@@ -8,7 +8,7 @@ import android.view.View;
 
 public class MainActivity extends Activity {
 	
-	public final String DECK_NAME = "hang.christina.MainActivity.DECK_NAME";
+	public static final String DECK_NAME = "DECK_NAME";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
